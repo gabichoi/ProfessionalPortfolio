@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ProfessionalPortfolio/static/css/main.72e3987a.css",
-    "main.js": "/ProfessionalPortfolio/static/js/main.35ce1742.js",
+    "main.css": "/ProfessionalPortfolio/static/css/main.8ab5b896.css",
+    "main.js": "/ProfessionalPortfolio/static/js/main.2645f2c9.js",
     "static/media/profile.png": "/ProfessionalPortfolio/static/media/profile.dc0338dc1c391359cfb9.png",
-    "static/media/project6.png": "/ProfessionalPortfolio/static/media/project6.005aadf6a6aa2f351370.png",
-    "static/media/project1.png": "/ProfessionalPortfolio/static/media/project1.e7d4156e18c86aae8122.png",
-    "static/media/project5.png": "/ProfessionalPortfolio/static/media/project5.08948ba5d7ed13f21d64.png",
-    "static/media/project4.jpeg": "/ProfessionalPortfolio/static/media/project4.dc6b8918d3ba346156cc.jpeg",
-    "static/media/project2.png": "/ProfessionalPortfolio/static/media/project2.6cd8029591a749afdd62.png",
+    "static/media/project6.png": "/ProfessionalPortfolio/static/media/project6.340dfde965b56fe68e3a.png",
+    "static/media/project1.png": "/ProfessionalPortfolio/static/media/project1.7c4a353bc9f8a28ef2ac.png",
+    "static/media/project4.png": "/ProfessionalPortfolio/static/media/project4.41f0aa802519aea2d0fc.png",
+    "static/media/project5.png": "/ProfessionalPortfolio/static/media/project5.5ac11c69d7d08bcb751c.png",
+    "static/media/project2.png": "/ProfessionalPortfolio/static/media/project2.903dc0d62c3a7dc5a2eb.png",
     "index.html": "/ProfessionalPortfolio/index.html",
-    "main.72e3987a.css.map": "/ProfessionalPortfolio/static/css/main.72e3987a.css.map",
-    "main.35ce1742.js.map": "/ProfessionalPortfolio/static/js/main.35ce1742.js.map"
+    "main.8ab5b896.css.map": "/ProfessionalPortfolio/static/css/main.8ab5b896.css.map",
+    "main.2645f2c9.js.map": "/ProfessionalPortfolio/static/js/main.2645f2c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.72e3987a.css",
-    "static/js/main.35ce1742.js"
+    "static/css/main.8ab5b896.css",
+    "static/js/main.2645f2c9.js"
   ]
 }
