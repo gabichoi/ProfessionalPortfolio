@@ -2,20 +2,19 @@ import React from 'react'
 import './ProjectStyle.css'
 import project1 from '../../assets/project1.png';
 import project2 from "../../assets/project2.png";
-import project4 from "../../assets/project4.jpeg";
+import project4 from "../../assets/project4.png";
 import project5 from "../../assets/project5.png";
 import project6 from "../../assets/project6.png";
 
-
 const ProjectComponent = () => {
-  const projects = [
+	const projects = [
 		{
 			id: 1,
 			image: project1,
 			title: "Covid 19 Cases Tracker",
 			description:
 				"A web application that visualizes the distribution of confirmed cumulative Covid 19 cases worldwide.",
-			tags: "Front-End || React, HTML, CSS || Covid 19",
+			tags: "Front-End || React, HTML, CSS",
 			demo: "https://gabichoi.github.io/Covid19CasesTracker/",
 			code: "https://github.com/gabichoi/Covid19CasesTracker/tree/main",
 		},
@@ -25,7 +24,7 @@ const ProjectComponent = () => {
 			title: "Covid 19 Mask Detector",
 			description:
 				"A system that detects if an individual is wearing a mask and provides a clear 'on' or 'off' indication.",
-			tags: "Machine Learning || Open CV, TensorFlow || Covid 19",
+			tags: "Machine Learning || Open CV, TensorFlow",
 			demo: "Unavailable",
 			code: "Pending",
 		},
@@ -70,43 +69,31 @@ const ProjectComponent = () => {
 			code: "",
 		},
 	];
-  
-  return (
+
+	const openLink = (link) => {
+		window.open(link, "_blank");
+	};
+
+	return (
 		<section id="project">
 			<hr className="divider" />
 			<h2>MY PROJECTS</h2>
 			<div className="container project__container">
 				{projects.map(({ id, image, title, description, tags, demo, code }) => {
 					return (
-						<article key={id} className="project__card">
-							<h3>{title}</h3>
-							<h4>{tags}</h4>
+						<article key={id} className="project__item">
 							<div className="project__item-img">
 								<img src={image} alt={title} />
 							</div>
-
+							<h3>{title}</h3>
+							<h4>{tags}</h4>
 							<p>{description}</p>
-
-							<div className="project-buttons">
-								<button className="btn">
-									<a
-										href={demo}
-										className="btn"
-										target="_blank"
-										rel="noreferrer"
-									>
-										DEMO
-									</a>
+							<div className="project__item-btns">
+								<button className="btn" onClick={() => openLink(demo)}>
+									DEMO
 								</button>
-								<button className="btn">
-									<a
-										href={code}
-										className="btn"
-										target="_blank"
-										rel="noreferrer"
-									>
-										CODE
-									</a>
+								<button className="btn" onClick={() => openLink(code)}>
+									CODE
 								</button>
 							</div>
 						</article>
@@ -115,6 +102,6 @@ const ProjectComponent = () => {
 			</div>
 		</section>
 	);
-}
+};
 
 export default ProjectComponent;
