@@ -1,0 +1,87 @@
+.header__container {
+   display: flex;
+   flex-direction: column; /* Make sure products stack vertically */
+   justify-content: center; /* Center products vertically */
+   align-items: center;
+   width: var(--container-width-lg);
+   height: 100vh;
+}
+
+.header__container > h3 {
+   margin-top: -0.3rem;
+   color: var(--color-3);
+   font-size: 3.2rem;
+   font-weight: 600;
+   letter-spacing: 0.2rem;
+   text-shadow:
+    -0.8px -0.8px 0 #000,
+     0.8px -0.8px 0 #000,
+    -0.8px  0.8px 0 #000,
+     0.8px  0.8px 0 #000;
+}
+
+.profile-picture {
+   background: var(--color-3);
+   width: 10rem;
+   height: 12rem;
+   position: center;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   border-radius: 10rem;
+   overflow: hidden;
+   padding: 1.9rem 1.3rem 0rem 1.2rem;
+}
+
+
+/* Media Query for Medium Devices */
+@media screen and (max-width: 1024px) {
+   .header__container {
+      width: var(--container-width-md);
+      height: initial;
+   }
+   .h1 {
+   font-size: 5rem;
+   letter-spacing: 3px;
+   }
+
+   .h2 {
+      font-size: 2.7rem;
+   }
+
+   .h3 {
+      font-size: 2.5rem;
+   }
+
+   .header__container > h3 {
+      margin-top: -0.3rem;
+      color: var(--color-3);
+      font-size: 3.5rem;
+      font-weight: 600;
+      letter-spacing: 0.2rem;
+      text-shadow:
+      -0.5px -0.5px 0 #000,
+      0.5px -0.5px 0 #000,
+      -0.5px  0.5px 0 #000,
+      0.5px  0.5px 0 #000;
+   }
+}
+
+/* Media Query for Small Devices */
+@media screen and (max-width: 600px) {
+   .header__container {
+      height: initial;
+   }
+
+   .header__container > h3 {
+      margin-top: -0.3rem;
+      color: var(--color-3);
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: 0.2rem;
+      text-shadow:
+      -0.5px -0.5px 0 #000,
+      0.5px -0.5px 0 #000,
+      -0.5px  0.5px 0 #000,
+      0.5px  0.5px 0 #000;
+   }
+}

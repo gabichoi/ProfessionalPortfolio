@@ -1,0 +1,53 @@
+nav {
+   height: 100vh; /* Make the navigation occupy the full viewport height */
+   /* width: var(--column-left-width-lg); */
+   position: fixed;
+   flex:1;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center; /* Center horizontally */
+   /* align-items: center; */
+   margin: 2rem;
+}
+
+nav a {
+   display: block;
+   color: black;
+   font-size: 1.4rem;
+   font-weight: 400;
+   /* margin: 1.2rem; */
+   text-decoration: none; /* Remove underline by default */
+   letter-spacing: 1px;
+   margin-bottom: 2.5rem;
+   padding: 0.6rem;
+   width: 100%;
+   display: flex; /* Create a flex container */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+
+}
+
+nav a:hover {
+   font-weight: 800; 
+   transition: all(--transition);
+   color:black;
+   border-radius: 0.5rem;
+}
+
+nav a.active {
+   font-weight: 800;
+   transition: all(--transition);
+   color:black;
+   background-color: var(--color-3);
+   border-radius: 0.5rem;
+}
+
+/* Media Query for Medium Devices */
+@media screen and (max-width: 1024px) {
+   nav {
+      display: none; 
+   }
+
+   
+}
+
