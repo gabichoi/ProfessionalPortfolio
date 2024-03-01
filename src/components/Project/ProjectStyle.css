@@ -23,6 +23,7 @@
 .project__item-img {
    border-radius: 1.5rem;
    overflow: hidden;
+   max-height: 180px;
 }
 
 .project__item h3 {

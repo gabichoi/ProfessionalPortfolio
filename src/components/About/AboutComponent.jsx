@@ -40,7 +40,7 @@ const AboutComponent = () => {
 				<div className="about-column1">
 					<div class="row1 margin-bottom-row">
 						<h3>Experience</h3>
-						<p>Software Developer</p>
+						<p>Software Systems Engineer</p>
 						<p>MEK Review</p>
 						<p>2021 - 2023</p>
 					</div>

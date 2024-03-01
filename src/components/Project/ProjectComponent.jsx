@@ -11,22 +11,22 @@ const ProjectComponent = () => {
 		{
 			id: 1,
 			image: project1,
+			title: "Color Contrast Checker",
+			description:
+				"A tool to improve web accessibility by evaluating color contrast ratios based on WCAG guidelines",
+			tags: "Full-Stack || React, HTML, CSS",
+			demo: "https://gabichoi.github.io/ColorContrastChecker/",
+			code: "https://github.com/gabichoi/ColorContrastChecker",
+		},
+		{
+			id: 2,
+			image: project2,
 			title: "Covid 19 Cases Tracker",
 			description:
 				"A web application that visualizes the distribution of confirmed cumulative Covid 19 cases worldwide.",
 			tags: "Front-End || React, HTML, CSS",
 			demo: "https://gabichoi.github.io/Covid19CasesTracker/",
 			code: "https://github.com/gabichoi/Covid19CasesTracker/tree/main",
-		},
-		{
-			id: 2,
-			image: project2,
-			title: "Covid 19 Mask Detector",
-			description:
-				"A system that detects if an individual is wearing a mask and provides a clear 'on' or 'off' indication.",
-			tags: "Machine Learning || Open CV, TensorFlow",
-			demo: "Unavailable",
-			code: "Pending",
 		},
 		{
 			id: 3,
@@ -41,12 +41,12 @@ const ProjectComponent = () => {
 		{
 			id: 4,
 			image: project4,
-			title: "Cheep Cheep Stay Dry",
+			title: "Covid 19 Mask Detector",
 			description:
-				"A game in which players control a chick left and right to escape falling raindrops.",
-			tags: "Full-Stack || Python, Pygame, Illustrator",
-			demo: "",
-			code: "",
+				"A system that detects if an individual is wearing a mask and provides a clear 'on' or 'off' indication.",
+			tags: "Machine Learning || Open CV, TensorFlow",
+			demo: "Unavailable",
+			code: "Pending",
 		},
 		{
 			id: 5,
@@ -63,7 +63,7 @@ const ProjectComponent = () => {
 			image: project6,
 			title: "Bear Maps",
 			description:
-				"A backend server that generates a map of the Berkeley area for restaurant look-up.",
+				"A backend server that generates an interactive map of UC Berkeley campus for restaurant look-up.",
 			tags: "Backend || Java",
 			demo: "",
 			code: "",
